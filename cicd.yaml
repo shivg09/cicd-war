@@ -1,4 +1,3 @@
-cat cicd.yaml 
 ---
 -  hosts: dochost
    tasks: 
