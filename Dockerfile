@@ -3,7 +3,7 @@ FROM tomcat
 # File Author / Maintainer
 MAINTAINER ashish
 
-COPY /opt/docker/simple-war.war /usr/local/tomcat/webapps
+COPY /opt/docker/simple-war-0.1.war /usr/local/tomcat/webapps
 # Update the repository sources list
 #RUN apt-get update
 
