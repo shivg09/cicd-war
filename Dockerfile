@@ -1,4 +1,4 @@
-FROM tomcat
+FROM alpine
 
 # File Author / Maintainer
 MAINTAINER ashish
