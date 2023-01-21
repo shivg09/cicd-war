@@ -3,7 +3,7 @@ FROM tomcat
 # File Author / Maintainer
 MAINTAINER ashish
 
-COPY ./sample-war /usr/local/tomcat/webapps
+COPY ./simple-war /usr/local/tomcat/webapps
 # Update the repository sources list
 #RUN apt-get update
 
