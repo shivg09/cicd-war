@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: shivgcicdwar 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: shivgcicdwar
+  template:
+    metadata:
+      labels:
+        app: shivgcicdwar 
+    spec:
+      containers:
+        - name: shivgcicdwar 
+          image: test220.azurecr.io/shivgcicdwar
+          ports:
+          - containerPort: 80
